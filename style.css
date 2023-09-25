@@ -6,7 +6,7 @@
     border: none;
     outline: none;
     scroll-behavior: smooth;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family:'poppins', sans-serif;
 }
 
 .logo {
@@ -22,13 +22,12 @@
 
 html {
     font-size: 62.5%;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 body {
     background: var(--bg-color);
-    color: var(--text-color)
-
+    color: var(--text-color);
 }
 
 .header {
@@ -41,7 +40,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    z-index: 100;
+    z-index: 100;;
 }
 
 .logo {

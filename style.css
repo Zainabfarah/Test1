@@ -34,4 +34,31 @@
 .navbar ul li a:hover{ 
     border-bottom: 2px solid yellow
 }
-/*home section*/
+/* Home section */
+#home{
+    display: flex;
+    flex-direction: column;
+    height: 650px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);   
+    color: white;
+}
+#home::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0%;
+    background: url(bilder/bild\ på\ mig.jpeg) no-repeat center/cover;
+    height: 700px;
+    width: 100%;
+    z-index: -1;
+    opacity: .8;
+}
+.heading{
+    color: white;
+    font-size: 3rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    transform: scale3d(1,1.3);
+}

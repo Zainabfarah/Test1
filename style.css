@@ -68,3 +68,8 @@ header{
     align-items: center;
     cursor: pointer;
 }
+#menu-icon{
+    font-size: 28px;
+    margin-left: 10px;
+    z-index: 6;
+}
